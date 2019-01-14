@@ -1,7 +1,7 @@
 header{
     width:100%;
     height:5%;
-    padding: 10px 30px;
+    
 }
 body{
     height:100%;
@@ -14,10 +14,7 @@ footer{
     text-align:center;
     color: #505050;
 }
-/* ul{
-   
-    text-align: center;
-} */
+
 li{
     display: inline;
     width: 100%;
@@ -34,8 +31,8 @@ input{
     text-shadow: none;
     display: inline-block;
     text-align: start;
-    margin: 0em;
-    font: 400 13.3333px Arial;
+    margin: 0;
+    font: 400 1em Arial;
     width:80%;
     height: 30px;
     border: 1px solid #C1C5C8;
@@ -96,9 +93,6 @@ fieldset{
         background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos_new.png);
        margin: 0 auto;
 }
-.logo-wrapper{
-    
-}
 .login-icon{
     height: 46px;
     width: 46px;
@@ -158,15 +152,12 @@ fieldset{
     width: 80%;
     height: 44px;
     font-size: 17px;
+    margin-top:20px;
+    margin-bottom:10px;
 }
-/* .input{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-} */
+
 .password-lock{
-    /* position: absolute; */
+    
     background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) no-repeat scroll 7px 7px;
     background-size: 20px 20px; 
     background-position-x: right;
