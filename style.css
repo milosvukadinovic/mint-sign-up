@@ -1,6 +1,48 @@
 header{
     width:100%;
     height:5%;
+    
+}
+body{
+    height:100%;
+    background-color: #ECEEF1;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,
+sans-serif;
+}
+footer{
+    font-size:12px;
+    text-align:center;
+    color: #505050;
+}
+
+li{
+    display: inline;
+    width: 100%;
+}
+input{
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0;
+    font: 400 1em Arial;
+    width:80%;
+    height: 30px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+fieldset{
+    border: none; 
 }
 
 
@@ -9,10 +51,120 @@ header{
 
 }
 .button-header{
-    height: 34;
-    width: 82;
-
+    height: 34px;
+    width: 82px;
+    background: #0077C5;
+    border-radius: 4px; 
+    border: 1px solid #4c4c4c;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 24px;
+    float: left;
+}
+.header-lock{
+        height: 1em;
+        width: .8em;
+        margin-top: 2px;
+        margin-right: 4px;
+        vertical-align: text-top;
+        display: inline-block;
+        background-image: url(https://accounts.intuit.com/images/v2/icon-whitelock@3x.png?v=1.45.1.0);
+        background-size: contain;
+        background-repeat: no-repeat;
 }
 .header-wrapper{
     float:right;
+}
+
+/* Form Section */
+
+.form-wrapper{
+    text-align: center;
+    height:90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.form-logo{
+        width: 118px;
+        height: 35px;
+        background-image: url(https://accounts.intuit.com/images/v2/ecosystem_logos_new.png);
+       margin: 0 auto;
+}
+.login-icon{
+    height: 46px;
+    width: 46px;
+}
+.first-login-icon{
+    background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg);
+}
+
+.root-form{
+    width: 24%;
+    margin: auto;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 2px;
+
+}
+.sign-up-header{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom:25px;
+}
+.sign-up-text{
+    font-size: 14px;
+    padding-bottom:15px;
+}
+.phone-text{
+    font-size: 10px;
+}
+.agreement-text{
+    font-size:13px;
+    font-style: italic;
+    color: #bbb;
+}
+.captcha{
+    font-size:10px;
+    color: #8d9096;
+    text-align: center;
+    padding: 16px;
+    background-color: #ECEEF1;
+    margin-top: 30px;
+}
+.form-button{
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    min-width: 100px;
+    display: inline-block;
+    padding: 6px 12px;
+    line-height: 1.428571429;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    text-shadow: none;
+    font-weight: 400;
+    color: #FFF;
+    background: #0077C5;
+    border: #0077C5;
+    border-radius: 4px;
+    width: 80%;
+    height: 44px;
+    font-size: 17px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.password-lock{
+    
+    background: url(https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png) no-repeat scroll 7px 7px;
+    background-size: 20px 20px; 
+    background-position-x: right;
+    direction : ltr;
+    height: 34px;
+}
+.login-items{
+    text-decoration: none;
+    color: #8d9096;
 }
