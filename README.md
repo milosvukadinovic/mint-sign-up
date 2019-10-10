@@ -6,3 +6,8 @@ Project to practice using HTML and CSS
 Open index.html in your browser.
 
 ![Alt text](/assets/ss.jpg)
+
+## Authors
+
+* [@azdrenymeri](https://github.com/azdrenymeri) 
+* [@milosvukadinovic](https://github.com/milosvukadinovic)
